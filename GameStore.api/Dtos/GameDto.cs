@@ -5,5 +5,5 @@ namespace GameStore.Api.Dtos;
         string Name,
         string Genre,
         decimal Price,
-        DateOnly RelseDate
+        DateOnly ReleaseDate
     );
