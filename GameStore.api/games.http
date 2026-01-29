@@ -8,18 +8,19 @@ POST http://localhost:5015/games
 Content-Type: application/json
 
 {
-    "Name":"Super Mario Bros . WOnder",
+    "Name":"Car Game",
     "Genre":"Platform",
     "Price":59.55,
     "ReleaseDate":"2023-10-20"
 }
+# Update
 ###
 PUT http://localhost:5015/games/1
 Content-Type: application/json
 
 {
-    "name": "street 2 fighter",
-    "genre": "Fighting 2",
+    "name": "Chess",
+    "genre": "Iq",
     "price": 11.44,
     "releaseDate": "1902-08-15"
 }
