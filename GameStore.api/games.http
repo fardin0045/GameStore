@@ -9,7 +9,17 @@ Content-Type: application/json
 
 {
     "Name":"Super Mario Bros . WOnder",
-    "Genre":"Platformer",
+    "Genre":"Platform",
     "Price":59.55,
     "ReleaseDate":"2023-10-20"
+}
+###
+PUT http://localhost:5015/games/1
+Content-Type: application/json
+
+{
+    "name": "street 2 fighter",
+    "genre": "Fighting 2",
+    "price": 11.44,
+    "releaseDate": "1902-08-15"
 }
